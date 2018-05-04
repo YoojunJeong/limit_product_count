@@ -136,7 +136,7 @@ public class EventTicket {
         try {
             // Read file.
             File file = new File("classes/init.json");
-//            File file = new File("/Users/yoojun.jeong/Documents/git/productcount/src/main/resources/init.json");
+//            File file = new File("/Users/yoojun.jeong/Documents/git/limit_product_count/src/main/resources/init.json");
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
@@ -183,7 +183,7 @@ public class EventTicket {
 
         System.out.println("MaxCount: " + maxCountMap.get(prvKey).intValue());
         System.out.println("RemainedCount: " + remainedCnt);
-        System.out.println("TicketMap Status: " + ticketMap.get(prvKey).keys());
+        System.out.println("TicketMap Status: " + ticketMap.get(prvKey).entrySet());
 
         return remainedCnt;
     }
