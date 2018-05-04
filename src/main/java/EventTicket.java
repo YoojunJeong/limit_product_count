@@ -61,9 +61,9 @@ public class EventTicket {
         int maxCnt = maxCountMap.get(prvKey);
 
         // already have a key.
-//        if(ticketMap.get(prvKey).containsKey(email)) {
-//            return true;
-//        }
+        if(ticketMap.get(prvKey).containsKey(email)) {
+            return true;
+        }
 
         // current count less than max count then you can buy a bag.
         if(cnt < maxCnt) {
@@ -135,8 +135,8 @@ public class EventTicket {
 
         try {
             // Read file.
-//            File file = new File("classes/init.json");
-            File file = new File("/Users/yoojun.jeong/Documents/git/productcount/src/main/resources/init.json");
+            File file = new File("classes/init.json");
+//            File file = new File("/Users/yoojun.jeong/Documents/git/productcount/src/main/resources/init.json");
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
@@ -172,14 +172,20 @@ public class EventTicket {
 
     public static int checkSoldout(String email, String prvKey) {
 
+        // already have a key.
+        if(!"".equals(email) && ticketMap.get(prvKey).containsKey(email)) {
+            return 1;
+        }
+
         Collection<ConcurrentHashMap> keys = ticketMap.values();
         int sellingCnt = ticketMap.get(prvKey).size() - cancelMap.get(prvKey).size();
-        int remaindCnt = maxCountMap.get(prvKey).intValue() - sellingCnt;
+        int remainedCnt = maxCountMap.get(prvKey).intValue() - sellingCnt;
 
-        System.out.println("MaxCount: "+maxCountMap.get(prvKey).intValue());
-        System.out.println("TicketMap Status: "+ticketMap.get(prvKey).entrySet());
+        System.out.println("MaxCount: " + maxCountMap.get(prvKey).intValue());
+        System.out.println("RemainedCount: " + remainedCnt);
+        System.out.println("TicketMap Status: " + ticketMap.get(prvKey).keys());
 
-        return remaindCnt;
+        return remainedCnt;
     }
 
     public static void purchase(String email, String prvKey, int amount) {
