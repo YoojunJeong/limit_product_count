@@ -1,0 +1,136 @@
+{
+    "products": [
+        {
+            "productId"     :   "168324",
+            "optionId"      :   "479533",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504096",
+            "optionId"      :   "2856927",
+            "maxCount"      :   "6",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "170777",
+            "optionId"      :   "495703",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504097",
+            "optionId"      :   "2856928",
+            "maxCount"      :   "3",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171507",
+            "optionId"      :   "499517",
+            "maxCount"      :   "3",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171507",
+            "optionId"      :   "499518",
+            "maxCount"      :   "5",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504754",
+            "optionId"      :   "2864710",
+            "maxCount"      :   "62",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "170778",
+            "optionId"      :   "495704",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "170778",
+            "optionId"      :   "495705",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504095",
+            "optionId"      :   "2856926",
+            "maxCount"      :   "3",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171508",
+            "optionId"      :   "499519",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171508",
+            "optionId"      :   "499520",
+            "maxCount"      :   "2",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504092",
+            "optionId"      :   "2856923",
+            "maxCount"      :   "29",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171506",
+            "optionId"      :   "499515",
+            "maxCount"      :   "11",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "171506",
+            "optionId"      :   "499516",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504755",
+            "optionId"      :   "2864711",
+            "maxCount"      :   "10",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "169016",
+            "optionId"      :   "483674",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504098",
+            "optionId"      :   "2856929",
+            "maxCount"      :   "2",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "170776",
+            "optionId"      :   "495701",
+            "maxCount"      :   "5",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504756",
+            "optionId"      :   "2864712",
+            "maxCount"      :   "15",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "170772",
+            "optionId"      :   "495696",
+            "maxCount"      :   "1",
+            "initCount"     :   "0"
+        }
+        ,{
+            "productId"     :   "504094",
+            "optionId"      :   "2856925",
+            "maxCount"      :   "3",
+            "initCount"     :   "0"
+        }
+    ]
+}
